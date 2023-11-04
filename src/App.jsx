@@ -21,8 +21,10 @@ function App() {
 
   return (
     <div className='App'>
+       <div className="container">
        <AddTodo todo={todo} setTodo={setTodo} addTodo={addTodo}/>
        <TodoList list={list} del={del}/>
+       </div>
     </div>
   )
 }
