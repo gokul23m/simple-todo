@@ -19,7 +19,7 @@ function TodoList({list,del}) {
         ) 
         :
          ( 
-             <p>No data Found</p>
+             <p>No Pending works to do</p>
          )
       }
     </>
